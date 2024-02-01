@@ -19,9 +19,9 @@ function App() {
 
   return (
     <>
-      <Router>
+{/*       <Router> */}
         <Navbar />
-        <Routes>
+{/*         <Routes>
           <Route exact path="/Hireme" Component={Hireme} />
           <Route exact path="/" Component={Home} />
           <Route exact path="/About" Component={About} />
@@ -31,9 +31,9 @@ function App() {
           <Route exact path="/Expertise" Component={Expertise} />
           <Route exact path="/Contact" Component={Contact} />
           <Route exact path="/Certificates" Component={Certificates} />
-        </Routes>
+        </Routes> */}
         <Footer />
-      </Router>
+{/*       </Router> */}
     </>
   )
 }
